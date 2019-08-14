@@ -5,7 +5,7 @@ FROM python:3.6
 LABEL maintainer "rgdevops123@gmail.com"
 
 # Set Environment variable.
-ENV TESTAPP_VERSION 0.0.1
+ENV TESTAPP_VERSION 0.0.2
 
 # Copy Application files.
 COPY app.py requirements.txt test.py /
